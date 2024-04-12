@@ -58,7 +58,7 @@ select distinct
 	   cast(replace(replace(replace([Net Income],char(160),''),'$',''),',','.') as numeric(18,4)) as [Net Income],
 	   case when [EBITDA] = '-' then null 
 			else cast(replace(replace(replace([EBITDA],char(160),''),'$',''),',','.') as numeric(18,4)) end as [EBITDA],
-	   case when [EBITDA] = '-' then null 
+	   case when [EBIT] = '-' then null 
 			else cast(replace(replace(replace([EBIT],char(160),''),'$',''),',','.') as numeric(18,4)) end as [EBIT],
 	   cast(replace(replace(replace([Basic Shares Outstanding],char(160),''),'$',''),',','.') as integer) as [Basic Shares Outstanding],
 	   cast(replace(replace(replace([Shares Outstanding],char(160),''),'$',''),',','.') as integer) as [Shares Outstanding],
@@ -66,7 +66,7 @@ select distinct
 	   case when [EPS - Earnings Per Share] = '-' then null else cast(replace(replace(replace([EPS - Earnings Per Share],char(160),''),'$',''),',','.') as numeric(18,4)) end as [EPS - Earnings Per Share],
 	   cast([Year] as date) as [Year],
        [ticker_name]
-FROM [DividendPolicyResearch].[dbo].[tb_FS_income_statement_macrotrends]
+from [DividendPolicyResearch].[dbo].[tb_FS_income_statement_macrotrends]
 order by ticker_name, cast([Year] as date)
 
 end
