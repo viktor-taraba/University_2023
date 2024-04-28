@@ -13,6 +13,8 @@ from [DividendPolicyResearch].[dbo].[tb_FS_Dividends_check]
 union all 
 select  ticker_name as ticker, 
 		Year, 
-		[Basic EPS] as amount, 
+		case when ticker_name = 'V' then [EPS_Basic]
+			else [Basic EPS] 
+		end as amount, 
 		'EPS' as type
 from [DividendPolicyResearch].[dbo].[tb_FS_EPS_check]
