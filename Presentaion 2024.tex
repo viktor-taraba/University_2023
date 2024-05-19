@@ -42,7 +42,7 @@
 \unskip\computecountitems\ifnumcomp{\previtemizecount}{>}{3}{\end{multicols}}{}}
 \usepackage[utf8]{inputenc}
 
-\title{Формування дивідендної політики корпорації (на прикладі компаній, що входять до індексу Standard & Poor's 100)}
+\title{Формування дивідендної політики корпорації (на прикладі компаній, що входять до індексу Standard \& Poor's 100)}
 \author{Студент 2 курсу магістратури\\спеціальності 072 «Фінанси, банківська справа та страхування»\\ОП «Корпоративні фінанси» Тараба В. С.\\ Науковий керівник: д. е. н., доцент Любкіна О. В.}
 \institute{Київський національний університет імені Тараса Шевченка\\Економічний факультет\\Кафедра фінансів}
 
@@ -77,13 +77,18 @@
     \item[\textcolor{orange}{\textbullet}] розглянути можливості для автоматизації процесу збору та обробки та даних та обрати оптимальний варіант; 
     \item[\textcolor{orange}{\textbullet}] сформувати критерії для визначення видів дивідендної політики на основі даних;
     \item[\textcolor{orange}{\textbullet}] виконати збір даних за останні 10 років (2014-2023 рр), які необхідні для визначення виду дивідендної політики;
-    \item[\textcolor{orange}{\textbullet}] визначити види дивідендної політики компаній, що входять до індексу S&P 100
+    \item[\textcolor{orange}{\textbullet}] визначити види дивідендної політики компаній, що входять до індексу S\&P 100
 \end{itemize}
 \end{itemize}
 \end{frame}
 
 
-\section{Види дивідендної політики}
+\section{Ключові фінансові індикатори видів дивідендної політики}
+\begin{frame}
+\frametitle{Ключові фінансові індикатори видів дивідендної політики}
+
+\end{frame}
+
 \begin{frame}
 \frametitle{Види дивідендної політики}
 
@@ -91,23 +96,35 @@
 
 \section{Збір та підготовка даних (формування бази даних)}
 \begin{frame}
+\begin{itemize}
+\item Для збору, обробки даних,та розрахунків використовувалися python, SQL, Power BI.
+\bigskip
+\item \alert {Процес збору і обробки даних} складається з 4 основних етапів.
+\begin{itemize}
+    \item[\textcolor{orange}{\textbullet}] отримання списку тікерів, що входять до S&P 100 та загальної інформації для кожного тікеру (назва компанії, галузь тощо);
+    \item[\textcolor{orange}{\textbullet}] збір по показниках DPS (дивіденди на одну звичайну акцію), EPS (чистий прибуток на одну звичайну акцію);
+    \item[\textcolor{orange}{\textbullet}] приведення до єдиного формату та звірка показників, отриманих з різних джерел, для гарантування якості даних;
+    \item[\textcolor{orange}{\textbullet}] розрахунок DPR (коефіцієнт виплати дивідендів) та побудова Power BI звіту на основі зібраних даних для визначення видів дивідендної політики та аналізу отриманих результатів.
+\end{itemize}
+\bigskip
+\item \alert {Основними джерелами даних} є сайти finance.yahoo.com, stockanalysis.com, macrotrends.com, nasdaq.com; додаткові джерела даних:* sec.gov, investing.com, morningstar.com та сайти компаній.
+\end{itemize}
+\bigskip
+\scriptsize \textcolor{gray}{* використовувалися лише за потреба в окремих випадках} 
 \frametitle{Збір та підготовка даних (формування бази даних)}
 
 \end{frame}
 
 \begin{frame}
-\frametitle{Збір та підготовка даних щодо показника чистого прибутку на одну акцію (EPS)}
-
+\frametitle{Формування бази даних (спрощена версія)}
+\begin{center}
+\includegraphics[scale=0.35]{Data Flow full.png}
+\end{center}
 \end{frame}
 
+\section{Ідентифікація виду дивідендної політики компаній, що входять до індексу Standard \& Poor's 100}
 \begin{frame}
-\frametitle{Збір та підготовка даних щодо показника дивідендів на одну акцію (DPS)}
-
-\end{frame}
-
-\section{Ідентифікація виду дивідендної політики компаній, що входять до індексу S&P 100}
-\begin{frame}
-\frametitle{Ідентифікація виду дивідендної політики компаній, що входять до індексу S&P 100}
+\frametitle{Ідентифікація видів дивідендної політики компаній, що входять до індексу Standard \& Poor's 100}
 
 \end{frame}
 
@@ -125,13 +142,6 @@
 \tinyskip
 \end{center}
 \scriptsize \textcolor{gray}{* З  початком  російського  вторгнення  торги  на  біржі було  припинено.} 
-\end{frame}
-
-\begin{frame}
-\frametitle{Результати торгових стратегій, які базуються на сигналах методів ТА}
-\begin{center}
-\includegraphics[scale=0.35]{Results Part 1.png}
-\end{center}
 \end{frame}
 
 \section{Висновки}
@@ -171,7 +181,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle {Q\&A - Прогнозування динаміки Індексу українських акцій (UX) за допомогою методів технічного аналізу та машинного навчання}
+\frametitle {Q\&A - Формування дивідендної політики корпорації (на прикладі компаній, що входять до індексу Standard \& Poor's 100 }
 \setbeamertemplate{section in toc}[circle]
 %\setbeamercolor{section in toc}{fg=UniBlue}
 %\setbeamercolor*{section in toc}{fg=UniBlue}
