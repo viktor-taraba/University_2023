@@ -8,15 +8,13 @@
 
 
 # Результати
-![Part 1](https://github.com/Viktor-T-2001/C_2022/blob/main/Results%20Part%201.png)
+![Part 1](https://github.com/viktor-taraba/University_2023/blob/main/Dividend%20policy%20Types.png)
 
-![Part 2](https://github.com/Viktor-T-2001/C_2022/blob/main/Results%20Part%202.png)
+![Part 2](https://github.com/viktor-taraba/University_2023/blob/main/EPS%20%20%26%20DPS%20comparison.png)
 
-![Part 3](https://github.com/Viktor-T-2001/C_2022/blob/main/Results%20Part%203.png)
+![Part 3](https://github.com/viktor-taraba/University_2023/blob/main/Dividend%20policy%20Changes.png)
 
-![Part 4](https://github.com/Viktor-T-2001/C_2022/blob/main/Results%20Part%204.png)
-
-![Part 5](https://github.com/Viktor-T-2001/C_2022/blob/main/Results%20Part%205.png)
+![Part 4](https://github.com/viktor-taraba/University_2023/blob/main/COST.png)
 
 # Висновки
 
