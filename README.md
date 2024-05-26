@@ -6,15 +6,17 @@
  
 **Науковий керівник**: доктор економічних наук, доцент Любкiна Олена Вiкторiвна
 
-
 # Результати
-![Part 1](https://github.com/viktor-taraba/University_2023/blob/main/Dividend%20policy%20Types.png)
-
-![Part 2](https://github.com/viktor-taraba/University_2023/blob/main/EPS%20%20%26%20DPS%20comparison.png)
-
-![Part 3](https://github.com/viktor-taraba/University_2023/blob/main/Dividend%20policy%20Changes.png)
-
-![Part 4](https://github.com/viktor-taraba/University_2023/blob/main/COST.png)
+### Формування бази даних
+![Part 1](https://github.com/viktor-taraba/University_2023/blob/main/Data%20Flow%20full.png)
+### Види дивiдендної полiтики
+![Part 2](https://github.com/viktor-taraba/University_2023/blob/main/Dividend%20policy%20Types.png)
+### Випадки, коли DPS >= EPS
+![Part 3](https://github.com/viktor-taraba/University_2023/blob/main/EPS%20%20%26%20DPS%20comparison.png)
+### Змiни в дивiденднiй полiтицi протягом дослiджуваного перiоду
+![Part 4](https://github.com/viktor-taraba/University_2023/blob/main/Dividend%20policy%20Changes.png)
+### Прогресивна дивiдендна полiтика з премiальними виплатами
+![Part 5](https://github.com/viktor-taraba/University_2023/blob/main/COST.png)
 
 # Висновки
 
