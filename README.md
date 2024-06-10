@@ -13,7 +13,7 @@
 |[OEF_holdings (tickers input data)](https://github.com/viktor-taraba/University_2023/blob/main/datasets/OEF_holdings%20(tickers%20input%20data).csv)|.csv|Тікери (вхідні дані)|
 |[company_tickers](https://github.com/viktor-taraba/University_2023/blob/main/datasets/company_tickers.json)|.json|Мепінг тікер-СІК|
 |[Presentation 2024](https://github.com/viktor-taraba/University_2023/blob/main/Presentation%202024.tex)|.tex|Презентація для захисту|
-|[Тараба_Презентація](https://github.com/viktor-taraba/University_2023/blob/main/%D0%A2%D0%B0%D1%80%D0%B0%D0%B1%D0%B0_%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%8F.pdf)|.pdf|Скомпільована презентація для захисту|
+|[Презентація (захист)](https://github.com/viktor-taraba/University_2023/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%8F%20(%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82).pdf)|.pdf|Скомпільована презентація для захисту|
 |[Query for PBI](https://github.com/viktor-taraba/University_2023/blob/main/Query%20for%20PBI.sql)|.sql|Запит для Power BI звіту|
 |[Dividend policy](https://github.com/viktor-taraba/University_2023/blob/main/Dividend%20policy.pbix)|.pbix|Power BI звіт (результати роботи, візуалізація та анліз даних)|
 |[DividendPolicyResearch_LogBackup_2024-03-25](https://github.com/viktor-taraba/University_2023/blob/main/DividendPolicyResearch_LogBackup_2024-03-25.bak)|.bak|Проміжний бекап бази даних|
