@@ -23,26 +23,3 @@ group by ticker_name, year
 	and abs(d.Diff) > 0;
 
 end
-
-
-update [DividendPolicyResearch].[dbo].[tb_FS_Dividends_check]
-set dividend_nd = null,
-	nd_Diff = null
-FROM [DividendPolicyResearch].[dbo].[tb_FS_Dividends_check] as d
-
-select * from [DividendPolicyResearch].[dbo].[tb_FS_Dividends_check]
-order by abs(nd_Diff) desc
-
-where ticker = 'EXC'
-order by Year desc
-
-select * from [dbo].[tb_sp100_splits]
-where ticker = 'IBM'
-order by date desc
-
-select * from [dbo].[tb_FS_fiscal_year_dates]
-where ticker = 'HON'
-
-select * from [dbo].[tb_FS_EPS_check]
-where ticker_name = 'GE'
-order by YEar desc
